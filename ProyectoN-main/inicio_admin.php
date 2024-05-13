@@ -26,6 +26,7 @@ if (!array_key_exists('Paso por login', $_SESSION) && !array_key_exists('admin',
         <a href="VerUsuarios.php">Ver usuarios</a>
         <a href="Colab.php">Ver colaboradores</a>
         <a href="VerReportes.php">Ver reportes</a>
+        <a href="pendreport.php">Reportes Pendientes</a>
       </div>
     </li>
     

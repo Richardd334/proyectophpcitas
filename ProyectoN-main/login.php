@@ -18,6 +18,7 @@
         $_SESSION['Paso por login']=true;
         $_SESSION['admin']=true;
         $_SESSION['Nombre']=$filas['Nombre'];
+        $_SESSION['ID']=$filas['ID'];
         
         header("Location: inicio_admin.php");
       }

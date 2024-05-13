@@ -1,10 +1,10 @@
 <?php
     require_once "conecction.php";
-    /*session_start();
+    session_start();
     if (!array_key_exists('Paso por login', $_SESSION)) {
         header('Location: login.php');
         die;
-    }*/
+    }
     $Rpend = mysqli_query($db,"SELECT * FROM reppendientes");
 
 ?>
